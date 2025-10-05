@@ -17,16 +17,16 @@ function PersonByWindowSize() {
 
   let person = null;
   let state = null;
-  // if (isBig) {
-  //   person = <RandomHead person={MITHI} />;
-  //   state = POSSIBLE_STATES.big;
-  // } else if (isMedium) {
-  //   person = <RandomHead person={DIANA} />;
-  //   state = POSSIBLE_STATES.medium;
-  // } else if (isSmall) {
-  //   person = <RandomHead person={MIKONG} />;
-  //   state = POSSIBLE_STATES.small;
-  // }
+  if (isBig) {
+    person = <RandomHead person={MITHI} />;
+    state = POSSIBLE_STATES.big;
+  } else if (isMedium) {
+    person = <RandomHead person={DIANA} />;
+    state = POSSIBLE_STATES.medium;
+  } else if (isSmall) {
+    person = <RandomHead person={MIKONG} />;
+    state = POSSIBLE_STATES.small;
+  }
 
   return (
     <div style={{ display: "flex" }}>

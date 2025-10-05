@@ -1,5 +1,6 @@
 // import { BigHead } from "@bigheads/core"
 import { BorderedDiv } from "./pretty-defaults/index.jsx";
+// import { BeanHead } from "beanheads";
 
 const MIKONG = {
   body: "chest",
@@ -49,7 +50,7 @@ const DIANA = {
 
 const RandomHead = ({ person }) => (
   <BorderedDiv style={{ width: "125px", display: "auto" }}>
-    <BigHead {...person} />
+    {/* <BeanHead {...person} /> */}
   </BorderedDiv>
 );
 
