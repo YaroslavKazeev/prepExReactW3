@@ -2,7 +2,7 @@
 import { SmallSpan } from "./components/pretty-defaults.jsx";
 // import { useWithinWindowWidth, useWindowSize } from "./components/hooks";
 // import { RandomHead, MITHI, DIANA, MIKONG } from "./components/big-head.jsx";
-// import { BigHeadMessage, DisplaySize } from "./components/helpers.jsx";
+import { BigHeadMessage, DisplaySize } from "./components/helpers.jsx";
 
 // const POSSIBLE_STATES = {
 //   small: { name: "Mikong", size: "small", icon: <MdTabletMac /> },
@@ -46,7 +46,7 @@ function App() {
       <p>
         Current window size: {width} x {height}
       </p>
-      {/* <DisplaySize {...{ width, height }} /> */}
+      <DisplaySize {...{ width, height }} />
       {/* <PersonByWindowSize /> */}
       <SmallSpan>
         *Resizing your window changes the clothes and accessories of the avatar.
