@@ -1,5 +1,5 @@
 // import { MdDesktopMac, MdLaptopMac, MdTabletMac } from "./components/icons";
-// import { SmallSpan } from "./components/pretty-defaults.jsx";
+import { SmallSpan } from "./components/pretty-defaults.jsx";
 // import { useWithinWindowWidth, useWindowSize } from "./components/hooks";
 // import { RandomHead, MITHI, DIANA, MIKONG } from "./components/big-head.jsx";
 // import { BigHeadMessage, DisplaySize } from "./components/helpers.jsx";
@@ -48,12 +48,12 @@ function App() {
       </p>
       {/* <DisplaySize {...{ width, height }} /> */}
       {/* <PersonByWindowSize /> */}
-      {/* <SmallSpan>
+      <SmallSpan>
         *Resizing your window changes the clothes and accessories of the avatar.
         <br />
         *The avatar shown is based on whether your window is big, medium, or
         small.
-      </SmallSpan> */}
+      </SmallSpan>
     </div>
   );
 }

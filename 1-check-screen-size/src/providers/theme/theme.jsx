@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import { useStickyState } from "../../hooks/use-sticky-state";
+import useStickyState from "../../hooks/use-sticky-state.js";
 import styles from "./Theme.module.css";
 import THEMES from "./THEMES";
 
