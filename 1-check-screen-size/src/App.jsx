@@ -1,6 +1,6 @@
 import { MdDesktopMac, MdLaptopMac, MdTabletMac } from "./components/icons";
 import { SmallSpan } from "./components/pretty-defaults/index.jsx";
-import { useWithinWindowWidth, useWindowSize } from "./components/hooks";
+import { useWithinWindowWidth, useWindowSize } from "./components/hooks.js";
 import { RandomHead, MITHI, DIANA, MIKONG } from "./components/big-head.jsx";
 import { BigHeadMessage, DisplaySize } from "./components/helpers.jsx";
 
