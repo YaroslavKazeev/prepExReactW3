@@ -1,4 +1,4 @@
-import { PrettyHeader } from "./pretty-defaults.jsx";
+import { PrettyHeader } from "./pretty-defaults/index.jsx";
 
 const DisplaySize = ({ height, width }) => (
   <PrettyHeader style={{ fontSize: "30px", padding: "10px" }}>

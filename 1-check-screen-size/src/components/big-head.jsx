@@ -1,5 +1,5 @@
 // import { BigHead } from "@bigheads/core"
-import { BorderedDiv } from "./pretty-defaults.jsx";
+import { BorderedDiv } from "./pretty-defaults/index.jsx";
 
 const MIKONG = {
   body: "chest",

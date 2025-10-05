@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useTheme } from "../providers/providers.js";
+import { useTheme } from "../../providers";
 
 const MainGrid = ({ children, className, style }) => {
   const { bg1ClassName, bodyFont } = useTheme();
