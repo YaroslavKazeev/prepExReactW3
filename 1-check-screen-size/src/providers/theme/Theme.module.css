@@ -1,0 +1,183 @@
+/***************
+    DARK THEME
+ ***************/
+
+.darkBody {
+    background-color: var(--gray-01-dark);
+    color: var(--gray-00-light);
+}
+
+.darkSection {
+    background-color: var(--gray-06-dark-2);
+}
+
+.darkButton {
+    background-color: var(--gray-04-medium);
+}
+
+.darkButtonOnHover:hover {
+    color: var(--gray-01-dark);
+}
+
+.invertedDarkButton {
+    color: var(--gray-01-dark);
+    opacity: 0.8;
+}
+
+.invertedDarkButton:hover {
+    opacity: 1;
+}
+/***************
+    LIGHT THEME
+ ***************/
+
+.lightBody {
+    color: var(--gray-01-dark);
+    background-color: var(--gray-02-medium-light);
+}
+
+.lightSection {
+    background-color: var(--gray-03-light-2);
+}
+
+.lightButton {
+    background-color: var(--gray-02-medium-light);
+}
+
+.lightButtonOnHover:hover {
+    color: var(--gray-00-light);
+}
+
+.invertedLightButton {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.invertedLightButton:hover {
+    opacity: 1;
+}
+
+/***************
+    FUNKY THEME
+ ***************/
+
+.funkyBody {
+    color: #ffa7c4;
+    background-color: #373c48;
+}
+
+.funkySection {
+    background-color: #282c35;
+}
+
+.funkyButton {
+    background-color: #b9382d;
+}
+
+.funkyButtonOnHover:hover {
+    color: #b9382d;
+}
+
+.invertedFunkyButton {
+    color: #373c48;
+    opacity: 0.8;
+}
+
+.invertedFunkyButton:hover {
+    opacity: 1;
+}
+
+/***************
+    COLORS
+ ***************/
+
+.pink0Color {
+    color: var(--pink0);
+}
+
+.pink0BgOnHover:hover {
+    background-color: var(--pink0);
+}
+
+.green0Color {
+    color: var(--green0);
+}
+
+.green0BgOnHover:hover {
+    background-color: var(--green0);
+}
+
+.blue0Color {
+    color: var(--blue0);
+}
+
+.blue0BgOnHover:hover {
+    background-color: var(--blue0);
+}
+
+.purple0Color {
+    color: var(--purple0);
+}
+
+.purple0BgOnHover:hover {
+    background-color: var(--purple0);
+}
+
+.orange0Color {
+    color: var(--orange0);
+}
+
+.orange0BgOnHover:hover {
+    background-color: var(--orange0);
+}
+
+.blue1Color {
+    color: var(--blue1);
+}
+
+.blue1BgOnHover:hover {
+    background-color: var(--blue1);
+}
+
+.green1BgOnHover:hover {
+    background-color: var(--green1);
+}
+
+.green1Color {
+    color: var(--green1);
+}
+
+.pink1BgOnHover:hover {
+    background-color: var(--pink1);
+}
+
+.pink1Color {
+    color: var(--pink1);
+}
+
+.orange1BgOnHover:hover {
+    background-color: var(--orange1);
+}
+
+.orange1Color {
+    color: var(--orange1);
+}
+
+.peach0BgOnHover:hover {
+    background-color: var(--peach0);
+}
+
+.peach0Color {
+    color: var(--peach0);
+}
+/***************
+    DISABLED
+ ***************/
+
+.disabled {
+    opacity: 0.3;
+}
+
+.disabled:hover {
+    opacity: 0.3;
+}

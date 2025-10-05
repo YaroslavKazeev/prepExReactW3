@@ -1,35 +1,61 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import { MdDesktopMac, MdLaptopMac, MdTabletMac } from "./components/icons";
+// import { SmallSpan } from "./components/pretty-defaults.jsx";
+// import { useWithinWindowWidth, useWindowSize } from "./components/hooks";
+// import { RandomHead, MITHI, DIANA, MIKONG } from "./components/big-head.jsx";
+// import { BigHeadMessage, DisplaySize } from "./components/helpers.jsx";
+
+// const POSSIBLE_STATES = {
+//   small: { name: "Mikong", size: "small", icon: <MdTabletMac /> },
+//   medium: { name: "Diana", size: "medium", icon: <MdLaptopMac /> },
+//   big: { name: "Mithi", size: "big", icon: <MdDesktopMac /> },
+// };
+
+// function PersonByWindowSize() {
+//   const isBig = useWithinWindowWidth(1000, Infinity);
+//   const isMedium = useWithinWindowWidth(700, 999);
+//   const isSmall = useWithinWindowWidth(0, 699);
+
+//   let person = null;
+//   let state = null;
+//   if (isBig) {
+//     person = <RandomHead person={MITHI} />;
+//     state = POSSIBLE_STATES.big;
+//   } else if (isMedium) {
+//     person = <RandomHead person={DIANA} />;
+//     state = POSSIBLE_STATES.medium;
+//   } else if (isSmall) {
+//     person = <RandomHead person={MIKONG} />;
+//     state = POSSIBLE_STATES.small;
+//   }
+
+//   return (
+//     <div style={{ display: "flex" }}>
+//       {person}
+//       <BigHeadMessage {...{ state }} />
+//     </div>
+//   );
+// }
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const { width, height } = useWindowSize();
+  const width = 0;
+  const height = 0;
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <div>
+      <p>
+        Current window size: {width} x {height}
       </p>
-    </>
-  )
+      {/* <DisplaySize {...{ width, height }} /> */}
+      {/* <PersonByWindowSize /> */}
+      {/* <SmallSpan>
+        *Resizing your window changes the clothes and accessories of the avatar.
+        <br />
+        *The avatar shown is based on whether your window is big, medium, or
+        small.
+      </SmallSpan> */}
+    </div>
+  );
 }
 
-export default App
+export default App;
