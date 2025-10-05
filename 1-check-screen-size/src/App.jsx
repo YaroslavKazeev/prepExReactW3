@@ -1,6 +1,6 @@
 // import { MdDesktopMac, MdLaptopMac, MdTabletMac } from "./components/icons";
 import { SmallSpan } from "./components/pretty-defaults.jsx";
-// import { useWithinWindowWidth, useWindowSize } from "./components/hooks";
+import { useWithinWindowWidth, useWindowSize } from "./components/hooks";
 // import { RandomHead, MITHI, DIANA, MIKONG } from "./components/big-head.jsx";
 import { BigHeadMessage, DisplaySize } from "./components/helpers.jsx";
 
@@ -37,15 +37,10 @@ import { BigHeadMessage, DisplaySize } from "./components/helpers.jsx";
 // }
 
 function App() {
-  // const { width, height } = useWindowSize();
-  const width = 0;
-  const height = 0;
+  const { width, height } = useWindowSize();
 
   return (
     <div>
-      <p>
-        Current window size: {width} x {height}
-      </p>
       <DisplaySize {...{ width, height }} />
       {/* <PersonByWindowSize /> */}
       <SmallSpan>
