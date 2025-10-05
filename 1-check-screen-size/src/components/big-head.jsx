@@ -1,4 +1,3 @@
-// import { BigHead } from "@bigheads/core"
 import { BorderedDiv } from "./pretty-defaults/index.jsx";
 import { BeanHead } from "beanheads";
 
