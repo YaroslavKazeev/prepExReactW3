@@ -3,7 +3,7 @@ import styles from "./Styles.module.css"
 import { MenuStateProvider, useMenuState } from "providers"
 import { DialogOverlay, DialogContent } from "@reach/dialog"
 import { SquareButton } from "../button"
-import { GoOctoface, MdSettings, BiCoffeeTogo, FaReact } from "../icons"
+import { FiGithub, MdSettings, BiCoffeeTogo, FaReact } from "../icons"
 import { DivBg2 } from "../pretty-defaults"
 import ReactMenu from "./react-menu"
 import ThemeMenu from "./theme-menu"
@@ -49,7 +49,7 @@ const NavInner = () => {
                         {...labelProps("follow me on github")}
                         {...iProps}
                     >
-                        <GoOctoface />
+                        <FiGithub />
                     </SquareButton>
                     <SquareButton
                         href="https://ko-fi.com/minimithi"
