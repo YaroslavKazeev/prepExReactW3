@@ -45,12 +45,7 @@ const PrettyHeader = ({ Component, children, style, ...otherProps }) => {
   const Comp = Component ? Component : "div";
   const { headerFont } = useTheme();
   style = { fontFamily: headerFont, ...style };
-  return (
-    <Comp {...{ style, ...otherProps }}>
-      <p>PrettyHeader</p>
-      {children}
-    </Comp>
-  );
+  return <Comp {...{ style, ...otherProps }}>{children}</Comp>;
 };
 
 const SimpleLink = ({ href, children, style, ...otherProps }) => {
